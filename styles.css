@@ -113,6 +113,11 @@ html {
 
 .quizzes-main a:hover {
   box-shadow: 0 0 4px rgba(33,33,33,.2);
+  -webkit-backface-visibility: hidden;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .quizzes-main img {
